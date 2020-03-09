@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="intro">
+    <h2 class="w3-wide">Kaden Storrs </h2>
+    <h3>iOS Developer</h3>
+    <p class="w3-opacity"><i>The difference between mediocrity and excellence is the attention to detail. This quote always reminds me to pay close attention to the little things in life. Through out my experiences I have seen this play-out. In the state championship, we won because the minor tweaks we made which resulted in big plays. I focus on the little things throughout my development, because I know that the little details-that most people don’t pay attention to- make the biggest difference.</i></p>
+    <p class="w3-justify"> </p>
+    <div class="w3-row w3-padding-32">
+      <h1>Previous Projects</h1>
+      <div class="w3-third">
+        <p>
+          <a href="https://github.com/kadenstorrs/GrandparentApp">PillBox</a>
+        </p>
+      </div>
+      <div class="w3-third">
+        <p>Travel App</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Skills</h2>
+      <p class="w3-opacity w3-center"><i>To ensure that my apps will have the best quality, I have learned severall essential skills that I use throught all of my development</i></p><br>
+      <head>
+      <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 5px;
+      }
+      th {
+        text-align: left;
+      }
+      </style>
+      </head>
+      <body>
+        <table style="width:100%">
+          <tr>
+            <td>-Restful API's</td>
+            <td>-Debugging</td>
+            <td>-CocoaPods</td>
+            <td>-Git</td>
+          </tr>
+          <tr>
+            <td>-CoreData</td>
+            <td>-Notifications</td>
+            <td>-UIKit</td>
+            <td>-Swift</td>
+          </tr>
+          <tr>
+            <td>-JSON Parsing</td>
+            <td>-Firebase</td>
+            <td>-MVC</td>
+            <td>-Swift UI</td>
+          </tr>
+        </table>
+      </body>
+
+
+      <h1>Education</h1>
+      <p class="w3-opacity w3-center"><i>Education has played a crucial component in making me who I am today. I have always taken school seriously and have tried my best at any class i took</i></p><br>
+
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <h3>Lone Peak</h3>
+          <div class="w3-container w3-white">
+            <p><b>Lone Peak High School</b></p>
+            <p class="w3-opacity">August 2017-May2020</p>
+            <p>Throughout high school I had the privilege of participating in multiple sporting events. I played varsity football for lone peak for 2 years, where I helped contribute to a state championship win in 2018. I learned many valuable skills while playing football: teamwork, discipline, perseverance, goal setting, handling success and failure, and time management. I utilise these skills in my everyday life, wether I’m at work or at home. I also compete in track and field where I throw shot-put, discus, and javelin. I have 3 varsity letters from that. I expect nothing but the best from myself, I can promise you the same.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <h4>Mountainland Technical College</h4>
+          <div class="w3-container w3-white">
+            <p><b>Mountainland Technical College</b></p>
+            <p class="w3-opacity">August 2019-May 2020</p>
+            <p>I have had the privilege of attending Mountainland Technical Collge this past year. I have learned the in's and out's of ios development. </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Contact Instructor</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Contact</h2>
+      </header>
+      <div class="w3-container">
+        <p>Company Name</p>
+        <input class="w3-input w3-border" type="text" placeholder="Please enter your company name">
+        <p><label><i class="fa fa-user"></i> Send To Allan</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Send Email <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Please feel free to email me about any questions!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>American Fork, UT<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: (801)-980-0367<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: kadenstorrs@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+
+  <i class="fa fa-github w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
